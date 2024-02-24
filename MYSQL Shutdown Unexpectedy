@@ -1,0 +1,4 @@
+To begin, go to the XAMPP Control Panel. By clicking the Shell button in the XAMPP Control Panel, you can launch a shell.
+To start MySQL, open a shell and type the following command: mysqld --console --skip-grant-tables --skip-external-locking
+After that, use the Control Panel to open another shell window. To repair the database, copy and paste the following command into the new shell window: mysqlcheck -r --databases mysql --use-frm
+Stop MySQL from the first shell window, and then close both shell windows after that's done. After that, restart MySQL to see if the problem is still present.
